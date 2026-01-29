@@ -6,7 +6,6 @@ import abcd from  '../src/assets/abcd.mp3'
 
 const socket = io.connect("http://localhost:1000")
 
-
 const App = () => {
 
 const [username, setUsername] = useState("");
